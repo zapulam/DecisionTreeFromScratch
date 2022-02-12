@@ -14,7 +14,8 @@ data if needed on larger datasets to be more efficient
 - ideally, datasets will contain train and test sets, but here they are the same just to test if the tree works
 2. Initialize the DecisionTree, passing in the dataframe subset for training and a desired max tree depth.
 3. Call DecisionTree.fit() to fit a decision tree to the training data.
-(4.) Call DecisionTree.acc() to calculate the accuracy of the tree, passing in the dataframe subset for testing.
+4. (OPTIONAL) Call DecisionTree.acc() to calculate the accuracy of the tree, passing in the dataframe subset for testing and call 
+DecisionTree.print_tree() to print the full tree that has been created.
 
 In order to visualize the decision surfaces created for the 2D synthetic datasets, use the ipython notebook visualize.ipynb 
 with the same variables.
