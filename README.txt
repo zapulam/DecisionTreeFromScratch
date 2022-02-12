@@ -1,7 +1,8 @@
+# CS 460 - Machine Learning
 ### Decision Trees
 ### *Written by Zachary Pulliam*
 
-___________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________________________________
 
 This code was written in order to implement a decision tree classifier that will be used to classify 
 four synthetic datasets and a dataset of different legendary and non-legendary Pokemon.

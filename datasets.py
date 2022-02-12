@@ -8,6 +8,7 @@ Other dataset classes can be added here.
 import os
 import pandas as pd
 
+
 """Synthetic Datasets class for a single synthetic.csv file"""
 class SyntheticDataset:
     def __init__(self, ROOT, frame, k):
@@ -43,6 +44,8 @@ class SyntheticDataset:
 
         self.train = df[['A_bins', 'B_bins', 'Label']].copy()
         self.test = df[['A_bins', 'B_bins', 'Label']].copy()
+
+
 
 """Synthetic Datasets class for a single synthetic.csv file seperated into folds for testing and training"""
 class FoldedSyntheticDataset:
@@ -95,6 +98,7 @@ class FoldedSyntheticDataset:
             # append fold to list of folds
             self.trains.append(df)
             self.tests.append(test)
+
 
 
 """Pokemon!!!"""

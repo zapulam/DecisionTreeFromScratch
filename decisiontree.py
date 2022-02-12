@@ -9,7 +9,6 @@ import math
 import numpy as np
 
 
-
 """Contains the information of the nodes of the Decision Tree."""
 class Node:
     def __init__(self):
@@ -22,7 +21,7 @@ class Node:
         self.childs = None  # list of children 
 
 
-        
+
 """Decision Tree Classifier using ID3 algorithm."""
 class DecisionTree:
     def __init__(self, df, max_depth):

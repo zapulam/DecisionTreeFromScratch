@@ -9,7 +9,7 @@ from decisiontree import DecisionTree
 from datasets import SyntheticDataset, FoldedSyntheticDataset, PokemonDataset
 
 
-# variables
+"""variables"""
 ROOT = 'C:/Users/Zack\'s PC/Documents/UK Courses/CS 460/Assignment 1/data'  # Root to data files, both synthetic and pokemon data
 depth = 3  # max depth of trees
 k = 5 # number of bins to create for each variable, must be greater than 0
