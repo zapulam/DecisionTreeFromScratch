@@ -2,7 +2,7 @@
 ### Decision Trees
 ### *Written by Zachary Pulliam*
 
-____________________________________________________________________________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________________________________________________________________________
 
 This code was written in order to implement a decision tree classifier that will be used to classify 
 four synthetic datasets and a dataset of different legendary and non-legendary Pokemon.
@@ -19,10 +19,9 @@ is placed in the last column. This can be done in three steps...
 (4.) Call DecisionTree.acc() to calculate the accuracy of the tree, passing in the dataframe subset for testing.
 
 In order to visualize the decision surfaces created for the 2D synthetic datasets, use the ipython notebook visualize.ipynb 
-with the same variables.
+with the same synthetic dataset and number of bins (k).
 
 The synthetic dataset contains two features, A and B, which are continuous and need to be discretized.
-The Pokemon dataset contains continuous values for speed, health, etc. and Pokemon type data.
+The Pokemon dataset contains continuous values for attack, speed, health, etc. and Pokemon type.
 
 The data for these datasets can be explored in the 'exploration' notebook. 
-Bins for discretization can be changed in the bins.py file.
