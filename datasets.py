@@ -44,7 +44,7 @@ class SyntheticDataset:
         self.train = df[['A_bins', 'B_bins', 'Label']].copy()
         self.test = df[['A_bins', 'B_bins', 'Label']].copy()
 
-
+"""Synthetic Datasets class for a single synthetic.csv file seperated into folds for testing and training"""
 class FoldedSyntheticDataset:
     def __init__(self, ROOT, frame, folds, k):
         self.ROOT = ROOT
@@ -97,7 +97,7 @@ class FoldedSyntheticDataset:
             self.tests.append(test)
 
 
-
+"""Pokemon!!!"""
 class PokemonDataset:
     def __init__(self, ROOT, k):
         self.ROOT = ROOT
