@@ -26,12 +26,12 @@ class Node:
 class DecisionTree:
     def __init__(self, df, max_depth):
         self.df = df  # dataset
-        self.features = list(df)[0:-1]  # name of the features
+        self.features = list(df)[0:-1]  # names of all the features
         self.label = list(df)[-1]  # name of label column
-        self.values = df[self.label].unique()  # unique values
+        self.values = df[self.label].unique()  # unique label values
         self.depth = 0  # total depth of tree
         self.max_depth = max_depth  # max depth desired
-        self.node = None  # nodes
+        self.node = None  # head node
         self.entro = self.entropy(df[self.label].values)  # system entropy
 
 
