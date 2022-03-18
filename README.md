@@ -7,8 +7,8 @@ The example data here contains four synthetic datasets and a dataset of differen
 The DecisionTree class can be used on any other dataset that is descretized as long as the class label is placed in the last column. This can be done in three steps...
 
 1. Simply create a dataset class similar to those in datasets.py, and initialize the dataset class instance.
-- the data is discretized each time it is loaded in these examples, however, a new csv file can be created from discretized data if needed on larger datasets to be more efficient
-- ideally, datasets will contain train and test sets, but here they are the same just to test if the tree works
+    - the data is discretized each time it is loaded in these examples, however, a new csv file can be created from discretized data if needed on larger datasets to be more efficient
+    - ideally, datasets will contain train and test sets, but here they are the same just to test if the tree works
 2. Initialize the DecisionTree, passing in the dataframe subset for training and a desired max tree depth.
 3. Call DecisionTree.fit() to fit a decision tree to the training data.
 4. (OPTIONAL) Call DecisionTree.acc() to calculate the accuracy of the tree, passing in the dataframe subset for testing and call DecisionTree.print_tree() to print the full tree that has been created.
